@@ -1,8 +1,23 @@
-<script setup>
-</script>
-
 <template>
-  <main>
-    Home
+  <Skip></Skip>
+  <Header></Header>
+  <main id="main" role="main">
+    <Intro></Intro>
+    <Skill></Skill>
+    <Site></Site>
+    <Port></Port>
   </main>
+  <Contact></Contact>
+  <Footer></Footer>
 </template>
+
+<script setup>
+  import Skip from '@/components/Skip.vue';
+  import Header from '@/components/Header.vue';
+  import Intro from '@/components/Intro.vue';
+  import Skill from '@/components/Skill.vue';
+  import Site from '@/components/Site.vue';
+  import Port from '@/components/Port.vue';
+  import Contact from '@/components/Contact.vue';
+  import Footer from '@/components/Footer.vue';
+</script>
