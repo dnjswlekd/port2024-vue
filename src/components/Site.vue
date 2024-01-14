@@ -33,9 +33,9 @@
         </div>
     </section>
 </template>
+
 <style lang="scss">
 @import "@/assets/scss/mixin";
-
 .site__inner {
     padding: 16px;
 
@@ -78,7 +78,7 @@
             position: sticky;
             left: 0;
 
-            &.s1 {
+            &:nth-child(1) {
                 background-color: var(--subBg100);
                 top: 180px;
 
@@ -86,7 +86,7 @@
                     top: 140px;
                 }
             }
-            &.s2 {
+            &:nth-child(2) {
                 background-color: var(--subBg200);
                 top: 200px;
 
@@ -94,7 +94,7 @@
                     top: 160px;
                 }
             }
-            &.s3 {
+            &:nth-child(3) {
                 background-color: var(--subBg300);
                 top: 220px;
 
@@ -102,7 +102,7 @@
                     top: 180px;
                 }
             }
-            &.s4 {
+            &:nth-child(4) {
                 background-color: var(--subBg400);
                 top: 240px;
 
